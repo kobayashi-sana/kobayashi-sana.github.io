@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   
   
-  <title>x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办 | Hexo</title>
+  <title>x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办 | 小林Sana</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="本文是我的 Windows ROP 的入门笔记。本文主要讲解了如何在没有开启 GS 和 DYNAMICBASE 保护时如何对具有栈溢出漏洞的程序进行利用。利用使用了两条路径：直接 ROP 和 VirtualProtect 修改内存页为 RWX 执行 shellcode。 测试程序编译命令：cl &#x2F;Zi &#x2F;W4 &#x2F;GS- .\echo.c &#x2F;link &#x2F;DYNAMICBASE:NO 12345678">
 <meta property="og:type" content="article">
 <meta property="og:title" content="x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办">
 <meta property="og:url" content="http://example.com/2026/10/07/x64-windows-rop-r9-gadget/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="小林Sana">
 <meta property="og:description" content="本文是我的 Windows ROP 的入门笔记。本文主要讲解了如何在没有开启 GS 和 DYNAMICBASE 保护时如何对具有栈溢出漏洞的程序进行利用。利用使用了两条路径：直接 ROP 和 VirtualProtect 修改内存页为 RWX 执行 shellcode。 测试程序编译命令：cl &#x2F;Zi &#x2F;W4 &#x2F;GS- .\echo.c &#x2F;link &#x2F;DYNAMICBASE:NO 12345678">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/stack-top.png">
@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/stack-top.png">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="小林Sana" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -53,7 +53,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">小林Sana</a>
       </h1>
       
     </div>
